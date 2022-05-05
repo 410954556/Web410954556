@@ -1,7 +1,15 @@
 ﻿
 @{
     ViewBag.Title = "Index";
+
 }
 
 <h2>Index</h2>
-
+印出1-10
+<br />
+@for (int i = 1; i <= 10; i++)
+{
+     <p>
+        @i
+    </p>      
+}
